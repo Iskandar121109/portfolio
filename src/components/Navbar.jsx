@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsInstagram } from "react-icons/bs";
-import {SlSocialVkontakte} from 'react-icons/sl'
+import { SlSocialVkontakte } from 'react-icons/sl'
+
 export const Navbar = () => {
     return (
         <div className='bg-black/90 justify-around flex items-center gap-4 px-2 py-2'>
@@ -24,9 +25,13 @@ export const Navbar = () => {
                     Contacts
                 </li>
             </ul>
-            <div className='flex items-center gap-3'>
-                <BsInstagram className='text-white text-xl hover:text-fuchsia-400 cursor-pointer' />
-                <SlSocialVkontakte className='text-white text-2xl cursor-pointer hover:text-blue-300'/>
+            <div className='flex items-center gap-5'>
+                <a href="https://www.instagram.com" >
+                    <BsInstagram className='text-white text-2xl hover:text-fuchsia-400 cursor-pointer' />
+                </a>
+                <a href="https://www.vk.com">
+                    <SlSocialVkontakte className='text-white text-3xl cursor-pointer hover:text-blue-300' />
+                </a>
             </div>
         </div>
     )
