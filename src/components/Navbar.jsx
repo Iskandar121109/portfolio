@@ -4,22 +4,19 @@ import { SlSocialVkontakte } from 'react-icons/sl'
 
 export const Navbar = () => {
     return (
-        <div className='bg-black/90 justify-around flex items-center gap-4 px-2 py-2'>
+        <div className='bg-[#313131] justify-around flex items-center gap-4 px-2 py-2'>
             <div>
                 <img className=' h-[62px]' src="logo.png" alt="logo" />
             </div>
-            <ul className='flex gap-10 text-[#B6D5E1] uppercase text-xl'>
+            <ul className='flex gap-10 text-[#E4E4E4] uppercase text-xl'>
                 <li className='hover:text-[#e6f6fd] cursor-pointer'>
-                    Home
+                    <a href="/#home">Home</a>
                 </li>
                 <li className='hover:text-[#e6f6fd] cursor-pointer'>
-                    Hobbies & interests
+                    <a href="/#about-me">About Me</a>
                 </li>
                 <li className='hover:text-[#e6f6fd] cursor-pointer'>
-                    Random Facts
-                </li>
-                <li className='hover:text-[#e6f6fd] cursor-pointer'>
-                    Skills
+                    <a href="/#portfolio">Portfolio</a>
                 </li>
                 <li className='hover:text-[#e6f6fd] cursor-pointer'>
                     Contacts
