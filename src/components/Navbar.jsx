@@ -19,7 +19,7 @@ export const Navbar = () => {
                     <a href="/#portfolio">Portfolio</a>
                 </li>
                 <li className='hover:text-[#e6f6fd] cursor-pointer'>
-                    Contacts
+                    <a href="/#contact">Contacts</a>
                 </li>
             </ul>
             <div className='flex items-center gap-5'>
